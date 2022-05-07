@@ -1,7 +1,4 @@
-import {
-  SanityImageObject,
-  SanityImageSource,
-} from '@sanity/image-url/lib/types/types';
+import { SanityImageObject } from '@sanity/image-url/lib/types/types';
 import { Dictionary } from 'lodash';
 
 export type TSlug = string;
@@ -82,9 +79,4 @@ export type TCeleb = {
   oldContent?: TCelebOldContent;
   // facts?: OrderedFacts;
   facts?: GroupedFacts;
-};
-
-export type CelebPageProps = {
-  celeb: TCeleb;
-  placeholderImage: SanityImageSource;
 };

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Michroma;
+    src: url('/fonts/Michroma.ttf') format('TrueType');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url('/fonts/Manrope-vrb.ttf') format('TrueType');
+    font-style: normal;
+    font-weight: 200 800;
+}
